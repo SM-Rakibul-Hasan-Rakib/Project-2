@@ -101,7 +101,11 @@ body {
   font-weight: 400;
 }
 
-#featured h1::nth-child(2) {
+#featured > h1::nth-child(2) {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+#fheading > h1::nth-child(2) {
   color: transparent;
   -webkit-text-stroke: 1px #000;
 }
@@ -109,26 +113,42 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   margin-top: 5vw;
   /* border: 2px solid red; */
 }
 #fleft {
-  overflow: auto;
+  overflow: hidden;
   width: 45%;
-  min-height: inherit;
-  border: 1px solid blue;
+  height: inherit;
 }
 .fleftelm {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
   width: 100%;
-  min-height: inherit;
+  height: inherit;
+}
+.fleftelm h1 {
+  /* font-size: 2vw; */
+  line-height: 1;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 1.5vw 0;
+}
+.fleftelm h4 {
+  opacity: 0.5;
+}
+.fleftelm h3 {
+  font-size: 1.3vw;
+  font-weight: 400;
 }
 #fright {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 45%;
-  min-height: inherit;
+  height: inherit;
   /* border: 1px solid green; */
 }
 #fright .images {
