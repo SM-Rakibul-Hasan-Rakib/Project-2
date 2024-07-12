@@ -47,3 +47,54 @@ body {
   margin-top: 3px;
   font-size: 20px;
 }
+#home #homemain {
+  width: 100%;
+  padding: 15vw 15vw;
+}
+
+#homemain h1 {
+  font-weight: 700;
+  letter-spacing: -0.1vw;
+  font-size: 1.5vw;
+}
+
+.headings {
+  display: flex;
+  gap: 40px;
+}
+#homemain .headings h1 {
+  font-size: 7vw;
+  -webkit-text-stroke: 1px #000;
+  letter-spacing: -8px;
+  line-height: 1;
+  color: transparent;
+  font-weight: 900;
+}
+#homelast {
+  padding: 5vw 15vw;
+}
+
+#homelast p {
+  font-size: 1.6vw;
+  font-weight: 400;
+  width: 70%;
+  letter-spacing: 1px;
+}
+
+#homelast p::selection {
+  background-color: #000;
+  color: #fff;
+}
+#featured {
+  padding: 10vw 15vw;
+}
+featured h1 {
+  line-height: 1;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+#featured h1::nth-child(2) {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
