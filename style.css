@@ -105,3 +105,8 @@ body {
   color: transparent;
   -webkit-text-stroke: 1px #000;
 }
+#featuredimage {
+  width: 100%;
+  padding: 5vw 15vw;
+  padding: 2px solid red;
+}
