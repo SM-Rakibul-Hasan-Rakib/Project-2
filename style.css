@@ -37,9 +37,9 @@ body {
 }
 #nav a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 700;
   color: #000;
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */
   font-size: 1vw;
 }
 
@@ -155,4 +155,18 @@ body {
   width: 90%;
   height: 90%;
   background-color: red;
+}
+
+#btndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btndiv button {
+  padding: 1.3vw 2.5vw;
+  border-radius: 100px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  font-size: 1vw;
+  font-weight: 700;
 }
