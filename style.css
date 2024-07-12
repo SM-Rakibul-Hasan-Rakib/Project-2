@@ -105,8 +105,28 @@ body {
   color: transparent;
   -webkit-text-stroke: 1px #000;
 }
-#featuredimage {
+#fimages {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  padding: 5vw 15vw;
-  padding: 2px solid red;
+  min-height: 100vh;
+  margin-top: 5vw;
+  /* border: 2px solid red; */
+}
+#fleft {
+  width: 45%;
+  min-height: inherit;
+  border: 1px solid blue;
+}
+#fright {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  min-height: inherit;
+  border: 1px solid green;
+}
+#fright .images {
+  width: 90%;
+  height: 80%;
+  background-color: red;
 }
